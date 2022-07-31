@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+
+}
+.container{
+    display: flex;
+    height: 100vh;
+    width: 980px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f0f2f5;;
+}
+
+.container-1,.box-3{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid #f0f2f5;
+}
+
+
+.container-1{
+    height: 250px;
+       
+}
+
+.box-2{
+    margin-left: 15px;
+}
+h2{
+    font-family:  Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    width: 400px;
+}
+img{
+    width: 301px;
+    margin: -28px;
+    margin-bottom: -10px;
+    margin-left: -10px;
+}
+.container-2{
+    
+}
+.box-3{
+    width: 386px;
+    align-items: center;
+    
+    margin-right: 25px;
+    border: 1px solid silver;
+    background-color: #fff;
+    border-radius: 10px;
+    
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+/*.box-3{
+    display: block;
+    font-size: 16px;
+}*/
+.input,#text{
+    width: 350px;
+    height: 43px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 1px solid silver;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    margin-top: 5px;
+    outline: none;
+    
+
+}
+#text:hover,#password:hover {
+    color: #166fe5;
+    border-color: #166fe5;
+
+}
+#password{
+    width: 350px;
+    height: 43px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 1px solid silver;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    outline: none;
+}
+#button{
+    width: 360px;
+    height: 43px;
+    height: 43px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 1px solid silver;
+    margin-top: 5px;
+    background-color: #166fe5;
+    cursor: pointer;
+    color: #fff;
+    margin-bottom: 15px;
+    
+}
+#button:hover{
+    background-color: #2a50b7;
+}
+#new:hover{
+    background-color: green;
+}
+
+#new{
+    
+    width: 250px;
+    height: 43px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 1px solid silver;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: #42b72a;
+    cursor: pointer;
+    color: #fff;
+}
+a#a{
+    color:#1877f2;
+    text-decoration: none;
+}
+a#a:hover{
+    text-decoration: underline;
+}
+.flex {
+    width: 350px;
+    height: 1px;
+    background-color: rgb(230, 222, 222);
+    margin: 20px 16px;
+    
+}
+    
+p{  
+    height: 84px;
+    width: 420px;
+    color: #1c1e21;
+    margin-top: 25px;
+    text-align: center;
+    
+    
+}
+a{
+    color: #1c1e21;
+    text-decoration: none;
+    margin-right: 5px;
+    margin-left: 5px;
+
+}
+a:hover{
+    text-decoration: underline;
+}
+.box-4{
+    width: 300px;
+    
+    
+}
+
+
+
+
+    
+
